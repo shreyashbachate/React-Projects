@@ -4,7 +4,7 @@ import { useState } from 'react'
 import './App.css'
 
 function App() {
-  let [counter, setCounter] = useState(15);
+  const [counter, setCounter] = useState(15);
   let [msg, setMessage] = useState('')
 
   const addValue = () => {
